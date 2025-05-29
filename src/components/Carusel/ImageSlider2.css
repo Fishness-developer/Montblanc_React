@@ -1,0 +1,13 @@
+.slider {
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    margin: 0 auto;
+    background: var(--color-black);
+    /*overflow: hidden;*/
+}
+
+.slick-dots{
+display: none!important;
+
+}

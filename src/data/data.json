@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "src": "../../assets/images/slides/slide_1.jpg"
+  },
+  {
+    "id": 2,
+    "src": "../../assets/images/slides/slide_2.jpg"
+  },
+  {
+    "id": 3,
+    "src": "../../assets/images/slides/slide_3.jpg"
+  }
+]
