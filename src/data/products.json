@@ -1,0 +1,33 @@
+[
+	{
+		"id": 1,
+		"image": "/images/products/Costa_dOro.png",
+		"price": 45.00,
+		"description": "Olive oil Extra Virgin, Costa d’Oro"
+	},
+
+	{
+		"id": 2,
+		"image": "/images/products/chips.jpg",
+		"price": 16.00,
+		"description": "Potato chips Classic, San Carlo"
+	},
+	{
+		"id": 3,
+		"image": "/images/products/Tuna.jpg",
+		"price": 30.00,
+		"description": "Tuna striped fillet-slices in oil tin, ARTIGIANO"
+	},
+	{
+		"id": 4,
+		"image": "/images/products/cheese.jpg",
+		"price": 56.00,
+		"description": "Tet de Moine cheese, LeSuperbe "
+	},
+	{
+		"id": 5,
+		"image": "/images/products/ketchup.jpg",
+		"price": 23.00,
+		"description": "Tomato ketchup, Mutti "
+	}
+]

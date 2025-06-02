@@ -1,8 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
 import { Box, Typography } from '@mui/material';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 import './ImageSlider2.css'
 // Импортируйте JSON
 import imageData from '../../data/data2.json';
@@ -35,9 +35,11 @@ const ImageSlider2 = () => {
                                         src={item.src}
                                         alt={`Slide ${item.id}`}
                                     />
-                                    {/*<Typography variant="caption" display="block" sx={{mt: 1}}>*/}
-                                    {/*    Slide {item.id}*/}
-                                    {/*</Typography>*/}
+                                    <div className="description">
+                                        <h2>{item.title}</h2>
+                                        <p className="price">from <span>{item.price}</span> ₪ / kg</p>
+                                        <p className="text">{item.description} </p>
+                                    </div>
                                 </Box>
                             ))}
                         </Slider>

@@ -663,7 +663,7 @@ input {
   height: auto;
   padding: 50px 0;
   margin: 0 auto;
-  background: url("../images/bg_fon1.jpg") repeat;
+  background: url("./assets/images/bg_fon1.jpg") repeat;
 }
 .section_01 h2 {
   color: var(--color-green);
@@ -697,6 +697,8 @@ input {
 .section_01__promotions-item a {
   text-decoration: none;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 .section_01__promotions-item img {
   margin-bottom: 30px;
@@ -1076,7 +1078,7 @@ input {
   height: auto;
   padding: 50px 0 50px 0;
   margin: 0 auto;
-  background: url("../images/bg_fon_2.png") 0 100% no-repeat;
+  background: url("./assets/images/bg_fon_2.png") 0 100% no-repeat;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -1085,6 +1087,7 @@ input {
 .section_03 h2 {
   margin: 0 0 30px 0;
   text-align: center;
+  color: var(--color-dark)!important;
 }
 .section_03__info {
   width: auto;
@@ -1131,19 +1134,19 @@ input {
   text-transform: uppercase;
 }
 .section_04__container.phone {
-  background: url("../images/svg/phone_small.svg") 0 50% no-repeat;
+  background: url("./assets/images/svg/phone_small.svg") 0 50% no-repeat;
   padding-left: 40px;
   justify-content: flex-start;
   gap: 10px;
 }
 .section_04__container.email {
-  background: url("../images/svg/email_small.svg") 0 50% no-repeat;
+  background: url("./assets/images/svg/email_small.svg") 0 50% no-repeat;
   padding-left: 40px;
   justify-content: flex-start;
   gap: 10px;
 }
 .section_04__container.support {
-  background: url("../images/svg/support_small.svg") 0 50% no-repeat;
+  background: url("./assets/images/svg/support_small.svg") 0 50% no-repeat;
   padding-left: 40px;
   justify-content: flex-start;
   gap: 10px;

@@ -17,7 +17,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="header__contact phone">
-                    <Styled.PhoneIcon/>
+                    {/*<Styled.PhoneIcon font={20}/>*/}
 
                     <p className="tel">050 145-28-41</p>
                     <p className="time">support 0800 574 54 44 </p>
