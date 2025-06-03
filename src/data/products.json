@@ -3,31 +3,41 @@
 		"id": 1,
 		"image": "/images/products/Costa_dOro.png",
 		"price": 45.00,
-		"description": "Olive oil Extra Virgin, Costa d’Oro"
+		"title": "Olive oil Extra Virgin, Costa d’Oro",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus commodo orci, nec tempus ante imperdiet et. Duis vel ullamcorper nulla, non auctor diam. Praesent nec lectus et urna laoreet porttitor. Donec condimentum facilisis fringilla. Phasellus tempor dolor sit amet ex maximus, ut gravida ex mattis. Morbi commodo metus vitae risus tincidunt, non tincidunt velit dictum. Nunc ullamcorper diam nisi, aliquet laoreet augue lacinia sit amet. Donec vestibulum rutrum ipsum, eget vulputate justo fermentum vitae.",
+		"number": 0
 	},
 
 	{
 		"id": 2,
 		"image": "/images/products/chips.jpg",
 		"price": 16.00,
-		"description": "Potato chips Classic, San Carlo"
+		"title": "Potato chips Classic, San Carlo",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus commodo orci, nec tempus ante imperdiet et. Duis vel ullamcorper nulla, non auctor diam. Praesent nec lectus et urna laoreet porttitor. Donec condimentum facilisis fringilla. Phasellus tempor dolor sit amet ex maximus, ut gravida ex mattis. Morbi commodo metus vitae risus tincidunt, non tincidunt velit dictum. Nunc ullamcorper diam nisi, aliquet laoreet augue lacinia sit amet. Donec vestibulum rutrum ipsum, eget vulputate justo fermentum vitae.",
+		"number": 0
 	},
 	{
 		"id": 3,
 		"image": "/images/products/Tuna.jpg",
 		"price": 30.00,
-		"description": "Tuna striped fillet-slices in oil tin, ARTIGIANO"
+		"title": "Tuna striped fillet-slices in oil tin, ARTIGIANO",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus commodo orci, nec tempus ante imperdiet et. Duis vel ullamcorper nulla, non auctor diam. Praesent nec lectus et urna laoreet porttitor. Donec condimentum facilisis fringilla. Phasellus tempor dolor sit amet ex maximus, ut gravida ex mattis. Morbi commodo metus vitae risus tincidunt, non tincidunt velit dictum. Nunc ullamcorper diam nisi, aliquet laoreet augue lacinia sit amet. Donec vestibulum rutrum ipsum, eget vulputate justo fermentum vitae.",
+		"number": 0
 	},
 	{
 		"id": 4,
 		"image": "/images/products/cheese.jpg",
 		"price": 56.00,
-		"description": "Tet de Moine cheese, LeSuperbe "
+		"title": "Tet de Moine cheese, LeSuperbe ",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus commodo orci, nec tempus ante imperdiet et. Duis vel ullamcorper nulla, non auctor diam. Praesent nec lectus et urna laoreet porttitor. Donec condimentum facilisis fringilla. Phasellus tempor dolor sit amet ex maximus, ut gravida ex mattis. Morbi commodo metus vitae risus tincidunt, non tincidunt velit dictum. Nunc ullamcorper diam nisi, aliquet laoreet augue lacinia sit amet. Donec vestibulum rutrum ipsum, eget vulputate justo fermentum vitae.",
+		"number": 0
 	},
 	{
 		"id": 5,
 		"image": "/images/products/ketchup.jpg",
 		"price": 23.00,
-		"description": "Tomato ketchup, Mutti "
+		"title": "Tomato ketchup, Mutti ",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus commodo orci, nec tempus ante imperdiet et. Duis vel ullamcorper nulla, non auctor diam. Praesent nec lectus et urna laoreet porttitor. Donec condimentum facilisis fringilla. Phasellus tempor dolor sit amet ex maximus, ut gravida ex mattis. Morbi commodo metus vitae risus tincidunt, non tincidunt velit dictum. Nunc ullamcorper diam nisi, aliquet laoreet augue lacinia sit amet. Donec vestibulum rutrum ipsum, eget vulputate justo fermentum vitae.",
+		"number": 0
 	}
 ]

@@ -1100,6 +1100,27 @@ input {
   justify-content: center;
   gap: 30px;
 }
+.section_011 {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  margin: 0 auto;
+  background: url(./assets/images/bg_fon1.jpg) repeat;
+  display: flex
+;
+  justify-content: center;
+}
+
+.section_031__info {
+
+height: auto;
+padding: 0;
+margin: 0 30px;
+background: none;
+width: 1170px;
+
+gap: 30px;
+  }
 .section_03__info h3 {
   margin: 20px 0 0 0;
 }

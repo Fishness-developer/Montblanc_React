@@ -7,8 +7,8 @@ import ProductDetail from "../../components/ProductDetail/ProductDetail.jsx";
 
 const ProductDetailPage = () => {
 	return(
-		<section className="section_01">
-			<div className="section_03__info ">
+		<section className="section_011">
+			<div className="section_031__info ">
 				<ProductDetail/>
 			</div>
 
