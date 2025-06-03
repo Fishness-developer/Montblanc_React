@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import { useParams } from 'react-router-dom';
+import {useParams} from 'react-router-dom';
 import allProducts from '../../data/products.json';
 
 const ProductDetail = () => {
-	const { id } = useParams();
+	const {id} = useParams();
 	const product = allProducts.find((p) => p.id === parseInt(id));
 	const [counter, setCounter] = useState(1); // Начальное значение 1
 	const [productsList, setProductsList] = useState([]);
@@ -21,16 +21,12 @@ const ProductDetail = () => {
 	// Добавление продукта в корзину
 	const addToCart = () => {
 		setProductsList((prevList) => {
-			const existingProduct = prevList.find((p) => p.id === parseInt(id));
-			if (existingProduct) {
-				// Если продукт уже в корзине, обновляем количество
-				return prevList.map((p) =>
-					p.id === parseInt(id) ? { ...p, number: counter } : p
-				);
-			}
+
+
+
 			// Если продукта нет, добавляем новый
-			console.log(existingProduct)
-			return [...prevList, { ...product, number: counter }];
+const newList = [...prevList].filter((p) => p.id !== parseInt(id));
+			return [...newList, {...product, number: counter}];
 		});
 		console.log('Updated productsList:', productsList); // Логирование после добавления
 	};
@@ -38,7 +34,7 @@ const ProductDetail = () => {
 	if (!product) {
 		return <div>Товар не найден</div>;
 	}
-console.log(counter);
+	console.log(counter);
 	return (
 		<div className="product-detail">
 			<h3>{product.title}</h3>
@@ -54,13 +50,21 @@ console.log(counter);
 			<p>{product.description}</p>
 			Add more details or styling as needed
 			<div className="amount">
-				<button data-amount-decrease onClick={decrementCounter}>-</button>
+				<button
+					data-amount-decrease
+					onClick={decrementCounter}
+				>-
+				</button>
 				<input
 					type="number"
 					value={counter}
 					className="amount-input"
 				/>
-				<button data-amount-increase onClick={incrementCounter}>+</button>
+				<button
+					data-amount-increase
+					onClick={incrementCounter}
+				>+
+				</button>
 			</div>
 			<button onClick={addToCart}>add to cart</button>
 		</div>
